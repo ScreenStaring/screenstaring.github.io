@@ -1,0 +1,63 @@
+# Site wide configuration
+
+title: ScreenStaring
+locale: en_US
+description: Software development and consulting
+logo:
+search: false
+url: http://screenstaring.com
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  #https://github.com/mmistakes/so-simple-theme/issues/250
+  #- jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+# Does not work
+authors:
+  sshaw:
+    display_name: sshaw
+
+# Site owner
+owner:
+  name: ScreenStaring
+  avatar:
+  email: hi@screenstaring.com
+  disqus-shortname:
+  twitter: ScreenStaring
+  facebook: #username
+  github: ScreenStaring
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics: UA-60489942-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:

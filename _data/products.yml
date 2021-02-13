@@ -1,0 +1,37 @@
+# Products are displayed in the order given.
+# All attributes required
+
+- title: "iTunes Store Transporter: GUI"
+  description: The easiest way to deliver and manage your books, music, TV shows, movies, and apps on the iTunes Store
+  url: http://transportergui.com/
+
+- title: Shopify Apps
+  description: <a href="https://apps.shopify.com/expiration-dates">Product Expiration Dates</a>, <a href="https://apps.shopify.com/nutrition-facts">Nutrition and Supplement Fact labels</a>, and more! Checkout <a href="https://apps.shopify.com/partners/developer-9984ce913dea07a5">all our apps</a> in the Shopify App Store
+  url: https://apps.shopify.com/partners/developer-9984ce913dea07a5
+
+- title: DDEX
+  description: DDEX metadata serialization for Ruby
+  url: https://github.com/sshaw/ddex
+
+- title: ReCharge API Client
+  description: "Ruby client for ReCharge Payments' recurring payments API for Shopify"
+  url: https://github.com/ScreenStaring/recharge-api
+
+- title: Shopify ID Export
+  description: |
+    Dump Shopify product and variant IDs —along with other identifiers— to a CSV or JSON file.<br><br>
+    When data munging in Shopify you'll often need to (cross-)reference product IDs, variant IDs, SKUs, barcodes, etc...
+    This program can help.
+  url: https://github.com/ScreenStaring/shopify_id_export
+
+- title: Export Pull Requests
+  description: Export pull requests and/or issues to a CSV file. Supports GitHub, GitLab, and Bitbucket.
+  url: https://github.com/sshaw/export-pull-requests/
+
+- title: XSLT Timecode
+  description: A pure, dependency free, XSLT 1.0 library for video timecode manipulation. Supports any frame rate, conversions, drop/non-drop frame counts and more.
+  url: https://github.com/sshaw/xslt-timecode
+
+- title: Video Timecode
+  description: Perl timecode module and command-line conversion program. Supports any frame rate, conversions, drop/non-drop frame counts and more.
+  url: https://github.com/sshaw/Time-Timecode

@@ -1,0 +1,25 @@
+---
+layout: application
+title: Blog
+---
+<section class="entry-wrapper">
+  <h3 id="blog-entries" class="entry-title">Blog</h3>
+  {% if site.posts.size == 0 %}
+    <p style="text-align:center">No posts &mdash;yet!</p>
+  {% else %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <article>
+            <a href="{{ site.url }}{{ post.url }}">
+              {{ post.title }}
+              <span class="entry-date">
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+              </span>
+            </a>
+          </article>
+        </li>
+        {% endfor %}
+    </ul>
+  {% endif %}
+</section>
