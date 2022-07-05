@@ -24,6 +24,12 @@
     This program can help.
   url: https://github.com/ScreenStaring/shopify_id_export
 
+- title: Shopify Development Tools
+  description: |
+    Command-line program to assist with the development and/or maintenance of Shopify apps and stores:
+    manipulate metafields and webhooks, open admin pages, retrieve information about shops, and more!
+  url: https://github.com/ScreenStaring/shopify-dev-tools
+
 - title: Export Pull Requests
   description: Export pull requests and/or issues to a CSV file. Supports GitHub, GitLab, and Bitbucket.
   url: https://github.com/sshaw/export-pull-requests/
