@@ -7,9 +7,9 @@ category: blog
 
 The [Shopify Buy Button](https://help.shopify.com/en/manual/online-sales-channels/buy-button) is JavaScript library that allows one to embed products from their Shopify store into a web page. The Buy Button is highly configurable, and Shopify [has an app](https://apps.shopify.com/buy-button) that can guide one through the configuration process and output a JavaScript snippet with the desired options.
 
-The app is a nice alternative for those that cannot perform or do not need to perform the coding necessary to configure it but, at the time of this writing, the options provided by the app hardly scratch the surface of what it is capable of.
+The app is a nice alternative for those that cannot perform or do not need to perform the coding necessary to configure it but, at the time of this writing, the options provided by the app hardly scratch the surface of what the Buy Button is capable of.
 
-We recently had a client request some modifications to the look and feel of the button on their site. They were using the app to generate a JavaScript snippet to display a collection, but were unable to configure it to meet their requirements. They wanted to:
+We recently had a client request some modifications to the look and feel of the button on their site. They were using the app to generate a snippet that displayed a collection, but were unable to configure it to meet their requirements. They wanted to:
 
 - Remove the redundant price display
 - Change the "view product" button click action to:
@@ -22,7 +22,7 @@ In this post we will delve into how we were able to meet these requirements.
 
 ## Remove the Redundant Price Display
 
-By default when a product's compare at price is set both it and its regular price are rendered. The regular price is struckthrough it indicate it's discounted.
+By default when a product's compare at price is set both it and its regular price are rendered. The regular price is struckthrough to indicate it's discounted.
 This is an appropriate default, but our client's process often leaves them with a compare at price that is the same as the product's current price.
 
 The client's theme accounted for this requirement but the Buy Button did not, leaving them with 2 versions of a product's price being displayed:
